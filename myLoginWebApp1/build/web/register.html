@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center>
+        <h1> Welcome To Registration </h1><br><br>
+        
+        <form action="RegisterServlet" >
+            <div>
+            <table>
+            <tr>    
+                <td>Name :</td> <td><input type="text" name="username"></td>
+            </tr>
+            <tr>
+                <td>LogIn ID :</td> <td><input type="text" name="std_id"></td>
+            </tr>
+            <tr>
+            <td>Password :</td> <td><input type="password" name="pass"></td>
+            </tr>
+            <tr>
+            <td>Address :</td> <td><input type="text" name="address"></td>
+            </tr>
+            <tr>
+            <td>Email ID :</td> <td><input type="text" name = "mail"></td>
+            </tr>
+            <tr>
+                <td>Type :</td> <td><input type="radio" name="type" value="Admin">Admin<br><input type="radio" name="type" value="Student">Student</td>
+            </tr>
+            </table><br><br>
+            </div>
+            <input type="Submit" name="register" value="Register">
+            
+        </form>
+        </center>
+    </body>
+</html>
